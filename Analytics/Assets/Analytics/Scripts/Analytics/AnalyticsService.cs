@@ -137,7 +137,7 @@ namespace Analytics.Scripts.Analytics
             {
                 _isSendingInProgress = false;
 
-                if (request.result == UnityWebRequest.Result.Success)
+                if (request.responseCode == 200)
                 {
                     var responseText = request.downloadHandler.text;
 
