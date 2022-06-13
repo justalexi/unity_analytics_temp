@@ -1,11 +1,6 @@
 ## Small service to send analytics events from unity
 
-Requires:
-1. TextMesh Pro
-2. More Effective Coroutines [FREE] (https://assetstore.unity.com/packages/tools/animation/more-effective-coroutines-free-54975)
-
-If More Effective Coroutines [PRO] is available then the code can be simplified a bit.
-
+Unity version used: 2020.3.28f1
 
 Usage:
 1. Play TestAnalyticsScene scene.
